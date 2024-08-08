@@ -7,3 +7,18 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
 body{font-family: "Public Sans", sans-serif;}
+
+
+.drop-lists-wrapper::-webkit-scrollbar {
+    width: 10px;
+}
+
+.drop-lists-wrapper::-webkit-scrollbar-track {
+    background-color: gray;
+}
+.drop-lists-wrapper::-webkit-scrollbar-thumb { 
+    background-color: skyblue;
+}
+.drop-lists-wrapper::-webkit-scrollbar-button {
+    display: none;
+}
